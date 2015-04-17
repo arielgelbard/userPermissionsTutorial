@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		216709B11ADE333B00DEAD5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 216709B01ADE333B00DEAD5F /* main.m */; };
+		216709B41ADE333B00DEAD5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 216709B31ADE333B00DEAD5F /* AppDelegate.m */; };
+		216709BA1ADE333B00DEAD5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216709B81ADE333B00DEAD5F /* Main.storyboard */; };
+		216709BC1ADE333B00DEAD5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216709BB1ADE333B00DEAD5F /* Images.xcassets */; };
+		216709BF1ADE333B00DEAD5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216709BD1ADE333B00DEAD5F /* LaunchScreen.xib */; };
+		216709CB1ADE333B00DEAD5F /* userPermissionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216709CA1ADE333B00DEAD5F /* userPermissionsTests.m */; };
+		216709D61ADE357200DEAD5F /* locationPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 216709D51ADE357200DEAD5F /* locationPermission.m */; };
+		216709DA1ADE388C00DEAD5F /* notificationPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 216709D91ADE388C00DEAD5F /* notificationPermission.m */; };
+		216709DD1ADE38B700DEAD5F /* contactPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 216709DC1ADE38B700DEAD5F /* contactPermission.m */; };
+		216709E01ADE3C8800DEAD5F /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216709DF1ADE3C8800DEAD5F /* mainViewController.m */; };
+		216709E31ADE41C800DEAD5F /* lockedOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 216709E21ADE41C800DEAD5F /* lockedOut.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		216709C51ADE333B00DEAD5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 216709A31ADE333B00DEAD5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 216709AA1ADE333B00DEAD5F;
+			remoteInfo = userPermissions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		216709AB1ADE333B00DEAD5F /* userPermissions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = userPermissions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		216709AF1ADE333B00DEAD5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216709B01ADE333B00DEAD5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		216709B21ADE333B00DEAD5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		216709B31ADE333B00DEAD5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		216709B91ADE333B00DEAD5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		216709BB1ADE333B00DEAD5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		216709BE1ADE333B00DEAD5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		216709C41ADE333B00DEAD5F /* userPermissionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = userPermissionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		216709C91ADE333B00DEAD5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216709CA1ADE333B00DEAD5F /* userPermissionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = userPermissionsTests.m; sourceTree = "<group>"; };
+		216709D41ADE357200DEAD5F /* locationPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = locationPermission.h; path = Permissions/locationPermission.h; sourceTree = "<group>"; };
+		216709D51ADE357200DEAD5F /* locationPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = locationPermission.m; path = Permissions/locationPermission.m; sourceTree = "<group>"; };
+		216709D81ADE388C00DEAD5F /* notificationPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = notificationPermission.h; path = Permissions/notificationPermission.h; sourceTree = "<group>"; };
+		216709D91ADE388C00DEAD5F /* notificationPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = notificationPermission.m; path = Permissions/notificationPermission.m; sourceTree = "<group>"; };
+		216709DB1ADE38B700DEAD5F /* contactPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = contactPermission.h; path = Permissions/contactPermission.h; sourceTree = "<group>"; };
+		216709DC1ADE38B700DEAD5F /* contactPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = contactPermission.m; path = Permissions/contactPermission.m; sourceTree = "<group>"; };
+		216709DE1ADE3C8800DEAD5F /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		216709DF1ADE3C8800DEAD5F /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		216709E11ADE41C800DEAD5F /* lockedOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lockedOut.h; path = Permissions/lockedOut.h; sourceTree = "<group>"; };
+		216709E21ADE41C800DEAD5F /* lockedOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = lockedOut.m; path = Permissions/lockedOut.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		216709A81ADE333B00DEAD5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216709C11ADE333B00DEAD5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		216709A21ADE333B00DEAD5F = {
+			isa = PBXGroup;
+			children = (
+				216709AD1ADE333B00DEAD5F /* userPermissions */,
+				216709C71ADE333B00DEAD5F /* userPermissionsTests */,
+				216709AC1ADE333B00DEAD5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		216709AC1ADE333B00DEAD5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				216709AB1ADE333B00DEAD5F /* userPermissions.app */,
+				216709C41ADE333B00DEAD5F /* userPermissionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		216709AD1ADE333B00DEAD5F /* userPermissions */ = {
+			isa = PBXGroup;
+			children = (
+				216709B21ADE333B00DEAD5F /* AppDelegate.h */,
+				216709B31ADE333B00DEAD5F /* AppDelegate.m */,
+				216709B81ADE333B00DEAD5F /* Main.storyboard */,
+				216709DE1ADE3C8800DEAD5F /* mainViewController.h */,
+				216709DF1ADE3C8800DEAD5F /* mainViewController.m */,
+				216709D71ADE358600DEAD5F /* Permissions */,
+				216709BB1ADE333B00DEAD5F /* Images.xcassets */,
+				216709BD1ADE333B00DEAD5F /* LaunchScreen.xib */,
+				216709AE1ADE333B00DEAD5F /* Supporting Files */,
+			);
+			path = userPermissions;
+			sourceTree = "<group>";
+		};
+		216709AE1ADE333B00DEAD5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				216709AF1ADE333B00DEAD5F /* Info.plist */,
+				216709B01ADE333B00DEAD5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		216709C71ADE333B00DEAD5F /* userPermissionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				216709CA1ADE333B00DEAD5F /* userPermissionsTests.m */,
+				216709C81ADE333B00DEAD5F /* Supporting Files */,
+			);
+			path = userPermissionsTests;
+			sourceTree = "<group>";
+		};
+		216709C81ADE333B00DEAD5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				216709C91ADE333B00DEAD5F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		216709D71ADE358600DEAD5F /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				216709D41ADE357200DEAD5F /* locationPermission.h */,
+				216709D51ADE357200DEAD5F /* locationPermission.m */,
+				216709D81ADE388C00DEAD5F /* notificationPermission.h */,
+				216709D91ADE388C00DEAD5F /* notificationPermission.m */,
+				216709DB1ADE38B700DEAD5F /* contactPermission.h */,
+				216709DC1ADE38B700DEAD5F /* contactPermission.m */,
+				216709E11ADE41C800DEAD5F /* lockedOut.h */,
+				216709E21ADE41C800DEAD5F /* lockedOut.m */,
+			);
+			name = Permissions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		216709AA1ADE333B00DEAD5F /* userPermissions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216709CE1ADE333B00DEAD5F /* Build configuration list for PBXNativeTarget "userPermissions" */;
+			buildPhases = (
+				216709A71ADE333B00DEAD5F /* Sources */,
+				216709A81ADE333B00DEAD5F /* Frameworks */,
+				216709A91ADE333B00DEAD5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = userPermissions;
+			productName = userPermissions;
+			productReference = 216709AB1ADE333B00DEAD5F /* userPermissions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		216709C31ADE333B00DEAD5F /* userPermissionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216709D11ADE333B00DEAD5F /* Build configuration list for PBXNativeTarget "userPermissionsTests" */;
+			buildPhases = (
+				216709C01ADE333B00DEAD5F /* Sources */,
+				216709C11ADE333B00DEAD5F /* Frameworks */,
+				216709C21ADE333B00DEAD5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				216709C61ADE333B00DEAD5F /* PBXTargetDependency */,
+			);
+			name = userPermissionsTests;
+			productName = userPermissionsTests;
+			productReference = 216709C41ADE333B00DEAD5F /* userPermissionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		216709A31ADE333B00DEAD5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Ariel Gelbard";
+				TargetAttributes = {
+					216709AA1ADE333B00DEAD5F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					216709C31ADE333B00DEAD5F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 216709AA1ADE333B00DEAD5F;
+					};
+				};
+			};
+			buildConfigurationList = 216709A61ADE333B00DEAD5F /* Build configuration list for PBXProject "userPermissions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 216709A21ADE333B00DEAD5F;
+			productRefGroup = 216709AC1ADE333B00DEAD5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				216709AA1ADE333B00DEAD5F /* userPermissions */,
+				216709C31ADE333B00DEAD5F /* userPermissionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		216709A91ADE333B00DEAD5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216709BA1ADE333B00DEAD5F /* Main.storyboard in Resources */,
+				216709BF1ADE333B00DEAD5F /* LaunchScreen.xib in Resources */,
+				216709BC1ADE333B00DEAD5F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216709C21ADE333B00DEAD5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		216709A71ADE333B00DEAD5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216709DD1ADE38B700DEAD5F /* contactPermission.m in Sources */,
+				216709E31ADE41C800DEAD5F /* lockedOut.m in Sources */,
+				216709D61ADE357200DEAD5F /* locationPermission.m in Sources */,
+				216709B41ADE333B00DEAD5F /* AppDelegate.m in Sources */,
+				216709E01ADE3C8800DEAD5F /* mainViewController.m in Sources */,
+				216709B11ADE333B00DEAD5F /* main.m in Sources */,
+				216709DA1ADE388C00DEAD5F /* notificationPermission.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216709C01ADE333B00DEAD5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216709CB1ADE333B00DEAD5F /* userPermissionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		216709C61ADE333B00DEAD5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 216709AA1ADE333B00DEAD5F /* userPermissions */;
+			targetProxy = 216709C51ADE333B00DEAD5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		216709B81ADE333B00DEAD5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216709B91ADE333B00DEAD5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		216709BD1ADE333B00DEAD5F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216709BE1ADE333B00DEAD5F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		216709CC1ADE333B00DEAD5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		216709CD1ADE333B00DEAD5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		216709CF1ADE333B00DEAD5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = userPermissions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		216709D01ADE333B00DEAD5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = userPermissions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		216709D21ADE333B00DEAD5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = userPermissionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/userPermissions.app/userPermissions";
+			};
+			name = Debug;
+		};
+		216709D31ADE333B00DEAD5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = userPermissionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/userPermissions.app/userPermissions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		216709A61ADE333B00DEAD5F /* Build configuration list for PBXProject "userPermissions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216709CC1ADE333B00DEAD5F /* Debug */,
+				216709CD1ADE333B00DEAD5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		216709CE1ADE333B00DEAD5F /* Build configuration list for PBXNativeTarget "userPermissions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216709CF1ADE333B00DEAD5F /* Debug */,
+				216709D01ADE333B00DEAD5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		216709D11ADE333B00DEAD5F /* Build configuration list for PBXNativeTarget "userPermissionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216709D21ADE333B00DEAD5F /* Debug */,
+				216709D31ADE333B00DEAD5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 216709A31ADE333B00DEAD5F /* Project object */;
+}
